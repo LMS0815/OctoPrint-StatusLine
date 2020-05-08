@@ -1,6 +1,6 @@
 # StatusLine
 
-Inspired by: https://plugins.octoprint.org/plugins/status_line/
+Inspired by: https://github.com/AmedeeBulle/StatusLine
 
 Simple plugin which displays the M117 message history on the SideBar
 
