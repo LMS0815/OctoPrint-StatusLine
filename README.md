@@ -1,6 +1,6 @@
 # StatusLine
 
-Simple plugin which prints the controller status line (actually the M117 Display Message command) on the SideBar
+Simple plugin which displays the M117 message history on the SideBar
 
 ![StatusLine](status_line.png?raw=true) 
 
@@ -9,5 +9,5 @@ Simple plugin which prints the controller status line (actually the M117 Display
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/AmedeeBulle/StatusLine/archive/master.zip
+    https://github.com/LMS0815/OctoPrint-StatusLine/archive/master.zip
 
