@@ -24,8 +24,7 @@ $(function() {
             if (plugin != "status_line") {
                 return;
             }
-             //self.status_line((data.status_line+'\n'+(self.status_line()?self.status_line():'')).substring(0, 300));
-             self.status_line((data.status_line+'\n'+(self.status_line()?self.status_line():'')).split('\n').splice(0,30).join('\n'));
+             self.status_line(data.status_line);
             self.show_status(true);
         };
     }
