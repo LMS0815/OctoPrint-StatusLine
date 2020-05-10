@@ -19,7 +19,7 @@ class StatusLine(octoprint.plugin.TemplatePlugin,
     def hook_m117(self, comm_instance, phase, cmd, cmd_type, gcode, *args, **kwargs):
         if gcode and gcode == "M117":
             self._logger.debug("Sent M117 command: {0}".format(cmd))
-            self.message = [cmd[5:], self.message.split("\n")][:30]
+            self.message = '\n'.join(([cmd[5:]]+self.message.split("\n"))[:30])
             self._plugin_manager.send_plugin_message(self._identifier, dict(status_line=self.message))
 
     # AssetPlugin
